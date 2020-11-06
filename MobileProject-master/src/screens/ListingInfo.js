@@ -96,7 +96,7 @@ export default class ListingInfo extends React.Component {
     var url =
       "https://maps.googleapis.com/maps/api/geocode/json?address=" +
       address +
-      "&key=AIzaSyCmWHiB6lswkIG4nGhEpVlt4rubIn1h7uo";
+      "&key=";
     return fetch(url)
       .then(res => res.json())
       .then(res => {
